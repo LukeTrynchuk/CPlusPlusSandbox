@@ -13,7 +13,6 @@ int main()
 	//cout is the method, std is the namespace.
 
 	std::cout << "Hello World!" << std::endl;
-
 	/*
 		alternatively, we also could have written
 		std::cout.print("Hello World!").print(std::endl);
