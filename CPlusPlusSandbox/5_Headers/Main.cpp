@@ -17,7 +17,7 @@
 		are files that are sitting somewhere
 		on our computer that are not local to 
 		the current project. iostream in this
-		case is not local and therefor we use
+		case is not local and therefor we use 
 		angular brackets.
 
 	""
