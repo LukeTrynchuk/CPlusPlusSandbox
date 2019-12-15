@@ -144,5 +144,19 @@ int main()
 	**doublePointer = 20;
 	std::cout << var << std::endl;
 
+	/*
+	This can actually scale to be much larger than 
+	just 2 pointers in. However, you should really 
+	never need more than a double pointer in 99.999%
+	of all use-cases.
+	*/
+	int*** triplePointer = &doublePointer;
+	int**** quadruplePointer = &triplePointer;
+	int***** quintuplePointer = &quadruplePointer;
+
+	*****quintuplePointer = 50;
+
+	std::cout << var << std::endl;
+
 	std::cin.get();
 }
