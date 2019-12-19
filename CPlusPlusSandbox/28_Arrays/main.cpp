@@ -251,5 +251,11 @@ int main()
 
 	std::cout << "Time to use built-in array in milliseconds : " << timer.elapsedMilliseconds() << std::endl;
 
+	int* intArray = new int[3]{ 3,4,3 };
+	std::cout << *(intArray) << std::endl;
+	std::cout << *(intArray + 1) << std::endl;
+	std::cout << *(intArray + 2) << std::endl;
+
+	delete[] intArray;
 	std::cin.get();
 }
